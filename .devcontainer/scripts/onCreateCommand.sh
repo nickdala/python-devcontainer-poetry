@@ -2,4 +2,4 @@
 
 set -x
 
-pip install poetry
+pipx install poetry
