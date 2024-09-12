@@ -3,7 +3,7 @@
     "image": "mcr.microsoft.com/devcontainers/python:3.11-bullseye",
     "features": {
     },
-    "onCreateCommand": "./.devcontainer/scripts/onCreateCommand.sh",
+    "postCreateCommand": "./.devcontainer/scripts/onCreateCommand.sh",
     "customizations": {
         "vscode": {
             "extensions": [
